@@ -238,7 +238,7 @@ def cli_app():
                 
                 print(f" Generando {count:,} colores aleatorios...")
                 
-                # Generar datos aleatorios eficientemente
+                # Generar datos aleatorios masiva optimizada
                 rgb_data = np.random.randint(0, 256, size=(count, 3), dtype=np.uint8)
                 
                 print(f" Procesando {count:,} colores con NumPy vectorizado...")
